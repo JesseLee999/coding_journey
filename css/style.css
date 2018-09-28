@@ -30,7 +30,7 @@ nav a {
 a.one:link {
   color: orange;
   font-family:"Lato";
-  font-size: large;
+  font-size: 20px;
   }
 a.one:visited {
   color: orange;
@@ -39,7 +39,7 @@ a.one:visited {
 a.one:hover {
   color: orange;
   font-family:"Lato";
-  font-size: xx-large;
+  font-size: 20px;
   text-decoration: none;
   }
 
@@ -60,7 +60,7 @@ footer {
 
 /* media queries */
 
-@media only screen and (min-width: 480px) {
+@media only and (min-width: 500px) {
   header{
     font-size: 50px;
     text-align: center;
@@ -93,7 +93,7 @@ footer {
   a.one:link {
     color: orange;
     font-family:"Lato";
-    font-size: large;
+    font-size: 40px;
     }
   a.one:visited {
     color: orange;
@@ -102,7 +102,7 @@ footer {
   a.one:hover {
     color: orange;
     font-family:"Lato";
-    font-size: xx-large;
+    font-size: 40px;
     text-decoration: none;
     }
 
